@@ -48,16 +48,6 @@ p {
 .hero__content {
   width: 100%;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .hero__content h1 {
@@ -66,32 +56,52 @@ p {
   isolation: isolate;
   mix-blend-mode: screen;
   font-size: 2.5rem;
+  margin: 80px 0;
+}
+
+@media (min-width: 40em) {
+  .hero__content h1 {
+    font-size: 3.5rem;
+  }
 }
 
 .hero__content h1::before {
   content: "";
   position: absolute;
-  height: 6rem;
-  width: 22.44rem;
+  height: 3em;
+  width: 11.22em;
   z-index: -1;
   left: 50%;
   top: 50%;
-  margin-top: -3rem;
-  margin-left: -11.22rem;
+  margin-top: -1.5em;
+  margin-left: -5.61em;
   background: url("../img/brush-stroke-cropped.svg");
   background-repeat: no-repeat;
 }
 
 .hero__content p {
   color: white;
-  margin: 50px auto;
+  margin: 3.75rem auto 20px;
   font-style: italic;
   font-weight: 500;
   font-size: 1.25rem;
 }
 
+@media (min-width: 40em) {
+  .hero__content p {
+    font-size: 1.5rem;
+    margin: 4.375rem auto 20px;
+  }
+}
+
 .hero__content p span {
   display: block;
   white-space: nowrap;
+}
+
+@media (min-width: 64em) {
+  .hero__content p span {
+    display: inline;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

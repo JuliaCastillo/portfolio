@@ -12,12 +12,5 @@ $gradient: linear-gradient(to bottom right, $purple, $dark-purple, $dark-blue);
 
 //font sizes
 
-$h1-size: 2.5rem;
-
-// @include breakpoint-up(medium) {
-//   $h1-size: 3.5rem;
-// }
-
-// stroke svg size
-$stroke-height: $h1-size + 3.5rem;
+$stroke-height: 3em;
 $stroke-width: $stroke-height * 3.74;
