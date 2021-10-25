@@ -3,8 +3,11 @@ export const SkillsList = [
   "CSS3",
   "JavaScript",
   "React",
+  "SASS",
   "Bootstrap",
   "JQuery",
   "AJAX",
   "Jekyll",
+  "Python",
+  "SQL",
 ];

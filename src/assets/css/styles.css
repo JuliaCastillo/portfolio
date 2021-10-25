@@ -165,20 +165,31 @@ p {
 }
 
 .about__text {
-  margin: 30px 10px 40px;
+  margin: 30px auto 40px;
+  max-width: 70ch;
+  text-align: center;
 }
 
 .about__text p {
+  font-size: 1.125rem;
   margin: 20px 0;
 }
 
 .about .skills {
-  margin: 30px;
+  margin: 30px auto;
+  max-width: 50ch;
+}
+
+@media (min-width: 40em) {
+  .about .skills {
+    margin: 30px auto;
+  }
 }
 
 .about .skilltag {
   display: inline-block;
   padding: 10px;
+  margin: 4px 3px;
   border-radius: 20px;
   color: #fff;
   background-color: #0500f5;
@@ -190,5 +201,10 @@ p {
 
 .about .skilltag:nth-child(3n) {
   background: #6922ff;
+}
+
+.about .skilltag p {
+  font-weight: 600;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */
