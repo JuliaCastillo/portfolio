@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <section className="hero" id="hero">
-      <div className="section_wrapper hero__content">
+      <div className="hero__content">
         <h1>HI, I'M JULIA</h1>
         <p>
           <span>productivity nut, </span> <span>animal lover, </span>

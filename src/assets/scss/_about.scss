@@ -1,0 +1,31 @@
+.about {
+  &__content {
+  }
+
+  &__text {
+    margin: 30px 10px 40px;
+    p {
+      margin: 20px 0;
+    }
+  }
+
+  .skills {
+    margin: 30px;
+  }
+  .skilltag {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    color: $white;
+
+    background-color: $dark-blue;
+
+    &:nth-child(2n) {
+      background: $purple;
+    }
+
+    &:nth-child(3n) {
+      background: $dark-purple;
+    }
+  }
+}
