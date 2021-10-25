@@ -4,6 +4,11 @@ import linkedinLogo from "../assets/img/linkedin.svg";
 import emailLogo from "../assets/img/email.svg";
 
 function Hero() {
+  const githubLink = "https://github.com/JuliaCastillo";
+  const linkedinLink =
+    "https://www.linkedin.com/in/julia-castillo-trujillo-1bb375172/";
+  const emailLink = "mailto:juliacastillotrujillo@gmail.com";
+
   return (
     <section className="hero" id="hero">
       <div className="section_wrapper hero__content">
@@ -14,13 +19,13 @@ function Hero() {
         </p>
 
         <div className="hero__links">
-          <a href="https://github.com/JuliaCastillo">
+          <a href={githubLink} target="_blank">
             <img src={githubLogo} alt="GitHub logo" />
           </a>
-          <a href="https://www.linkedin.com/in/julia-castillo-trujillo-1bb375172/">
+          <a href={linkedinLink} target="_blank">
             <img src={linkedinLogo} alt="LinkedIn logo" />
           </a>
-          <a href="mailto:juliacastillotrujillo@gmail.com">
+          <a href={emailLink} target="_blank">
             <img src={emailLogo} alt="Email logo" />
           </a>
         </div>
