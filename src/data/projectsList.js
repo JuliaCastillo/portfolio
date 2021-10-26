@@ -1,3 +1,5 @@
+import hoppersScreenshot from "../assets/img/edinburghhoppers.png";
+
 export const projectsList = [
   {
     title: "Edinburgh Hoppers website",
@@ -18,6 +20,15 @@ export const projectsList = [
     ),
     codeLink: "https://github.com/edinburgh-hoppers/website_new",
     demoLink: "https://edinburghhoppers.com/",
-    image: "../assets/img/edinburghhoppers.png",
+    // image: (
+    //   <>
+    //     <img
+    //       src={require("")}
+    //       alt="Screenshot of the Edinburgh Hoppers website's homepage"
+    //     />
+    //   </>
+    // ),
+    image: hoppersScreenshot,
+    imageAlt: "Screenshot of the Edinburgh Hoppers website's homepage",
   },
 ];

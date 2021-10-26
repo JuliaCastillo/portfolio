@@ -32,13 +32,13 @@ p {
 }
 
 .section_wrapper {
-  margin: 70px 30px;
+  margin: 150px 30px;
   text-align: center;
 }
 
 @media (min-width: 40em) {
   .section_wrapper {
-    margin: 70px 70px;
+    margin: 100px 70px;
   }
 }
 
@@ -255,5 +255,20 @@ p {
   background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
   z-index: -1;
   border-radius: 16px;
+}
+
+.project-card h3 {
+  margin-top: 30px;
+}
+
+.project-card p {
+  margin-top: 10px;
+}
+
+.card-image {
+  width: 90%;
+  -webkit-box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
+          box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
