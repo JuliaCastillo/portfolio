@@ -73,21 +73,6 @@ p {
   white-space: nowrap;
 }
 
-.card-buttons {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .hero {
   background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
   background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
@@ -238,10 +223,28 @@ p {
   position: relative;
   border: 7px solid transparent;
   border-radius: 16px;
-  padding: 20px;
+  padding: 30px;
   margin: 40px 10px;
   background: #fff;
   background-clip: padding-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 63.9375em) {
+  .project-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .project-card::before {
@@ -257,18 +260,71 @@ p {
   border-radius: 16px;
 }
 
-.project-card h3 {
+.project-card .card-content h3 {
   margin-top: 30px;
 }
 
-.project-card p {
+.project-card .card-content p {
   margin-top: 10px;
+  max-width: 60ch;
 }
 
-.card-image {
+.project-card .card-content .card-buttons {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 64em) {
+  .project-card .card-content .card-buttons {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+@media (min-width: 64em) {
+  .project-card .card-content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: left;
+  }
+  .project-card .card-content h3 {
+    margin: 0;
+  }
+}
+
+.project-card .card-image {
   width: 90%;
   -webkit-box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
           box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
   border-radius: 10px;
+}
+
+@media (min-width: 40em) {
+  .project-card .card-image {
+    width: 60%;
+  }
+}
+
+@media (min-width: 64em) {
+  .project-card .card-image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 90%;
+    margin-left: 30px;
+    max-width: 350px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

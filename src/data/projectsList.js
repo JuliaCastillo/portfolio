@@ -1,4 +1,5 @@
 import hoppersScreenshot from "../assets/img/edinburghhoppers.png";
+import weScreenshot from "../assets/img/womenempowered.png";
 
 export const projectsList = [
   {
@@ -20,15 +21,33 @@ export const projectsList = [
     ),
     codeLink: "https://github.com/edinburgh-hoppers/website_new",
     demoLink: "https://edinburghhoppers.com/",
-    // image: (
-    //   <>
-    //     <img
-    //       src={require("")}
-    //       alt="Screenshot of the Edinburgh Hoppers website's homepage"
-    //     />
-    //   </>
-    // ),
     image: hoppersScreenshot,
     imageAlt: "Screenshot of the Edinburgh Hoppers website's homepage",
+  },
+
+  {
+    title: "Women Empowered website - Schedule section",
+    description: (
+      <>
+        <p>
+          A website for Women Empowered, a conferance in celebration of
+          International Women’s Day and aimed to commemorate the achievements of
+          women in different fields and to advocate for the acceleration of
+          gender parity and inclusivity.
+        </p>
+
+        <p>
+          It was developed using Jekyll, HTML5, CSS3 and JavaScript. I was in
+          charge of designing and implementing the schedule section, where I
+          used a JavaScript library called Papa Parse to retrieve the schedule
+          information from a Google Sheets document, which was then processed
+          and displayed.
+        </p>
+      </>
+    ),
+    codeLink: "https://github.com/edinburgh-hoppers/WEwebsite",
+    demoLink: "https://womenempowered.space/#schedule",
+    image: weScreenshot,
+    imageAlt: "Screenshot of the Women Empowered website's schedule section",
   },
 ];

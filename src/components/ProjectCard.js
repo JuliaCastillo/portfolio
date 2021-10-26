@@ -17,15 +17,17 @@ function ProjectCard({
         alt="Screenshot of the Edinburgh Hoppers website's homepage"
       />
       {/* </div> */}
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <div className="card-buttons">
-        <a href={codeLink} className="button">
-          Code
-        </a>
-        <a href={demoLink} className="button">
-          Live website
-        </a>
+      <div className="card-content">
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div className="card-buttons">
+          <a href={codeLink} className="button">
+            Code
+          </a>
+          <a href={demoLink} className="button">
+            Live website
+          </a>
+        </div>
       </div>
     </div>
   );

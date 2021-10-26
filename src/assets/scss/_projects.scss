@@ -4,10 +4,18 @@ $card-border-width: 7px;
   position: relative;
   border: $card-border-width solid transparent;
   border-radius: 16px;
-  padding: 20px;
+  padding: 30px;
   margin: 40px 10px;
   background: $white;
   background-clip: padding-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+  }
 
   &::before {
     content: "";
@@ -22,21 +30,51 @@ $card-border-width: 7px;
     border-radius: 16px;
   }
 
-  h3 {
-    margin-top: 30px;
+  .card-content {
+    h3 {
+      margin-top: 30px;
+    }
+
+    p {
+      margin-top: 10px;
+      max-width: 60ch;
+    }
+
+    .card-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      @include breakpoint-up(large) {
+        justify-content: start;
+      }
+    }
+
+    @include breakpoint-up(large) {
+      order: 1;
+      text-align: left;
+      h3 {
+        margin: 0;
+      }
+    }
   }
 
-  p {
-    margin-top: 10px;
+  .card-image {
+    width: 90%;
+    box-shadow: 10px 10px 6px 1px rgba($dark-purple, 0.3);
+    border-radius: 10px;
+
+    @include breakpoint-up(medium) {
+      width: 60%;
+    }
+
+    @include breakpoint-up(large) {
+      order: 2;
+      height: 90%;
+      margin-left: 30px;
+      max-width: 350px;
+    }
   }
-}
-
-.card-image {
-  // width: 300px;
-  // height: 300px;
-
-  //max-width: 10em;
-  width: 90%;
-  box-shadow: 10px 10px 6px 1px rgba($dark-purple, 0.3);
-  border-radius: 10px;
 }
