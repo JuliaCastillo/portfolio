@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import { projectsList } from "../data/projectsList";
 
 function Projects() {
   return (
@@ -8,6 +9,9 @@ function Projects() {
         <div className="section_title">
           <h2>PROJECTS</h2>
         </div>
+        {projectsList.map((project) => {
+          return <ProjectCard {...project}></ProjectCard>;
+        })}
       </div>
     </section>
   );

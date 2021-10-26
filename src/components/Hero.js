@@ -19,13 +19,13 @@ function Hero() {
         </p>
 
         <div className="hero__links">
-          <a href={githubLink} target="_blank">
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="GitHub logo" />
           </a>
-          <a href={linkedinLink} target="_blank">
+          <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
             <img src={linkedinLogo} alt="LinkedIn logo" />
           </a>
-          <a href={emailLink} target="_blank">
+          <a href={emailLink} target="_blank" rel="noopener noreferrer">
             <img src={emailLogo} alt="Email logo" />
           </a>
         </div>

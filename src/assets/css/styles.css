@@ -207,4 +207,26 @@ p {
   font-weight: 600;
   font-size: 1rem;
 }
+
+.project-card {
+  position: relative;
+  border: 7px solid transparent;
+  border-radius: 16px;
+  padding: 20px;
+  background: #fff;
+  background-clip: padding-box;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
+  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
+  z-index: -1;
+  border-radius: 16px;
+}
 /*# sourceMappingURL=styles.css.map */
