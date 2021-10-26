@@ -62,6 +62,32 @@ p {
   margin-top: 5px;
 }
 
+.button {
+  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
+  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.card-buttons {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .hero {
   background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
   background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
@@ -188,7 +214,7 @@ p {
 
 .about .skilltag {
   display: inline-block;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 4px 3px;
   border-radius: 20px;
   color: #fff;
@@ -213,6 +239,7 @@ p {
   border: 7px solid transparent;
   border-radius: 16px;
   padding: 20px;
+  margin: 40px 10px;
   background: #fff;
   background-clip: padding-box;
 }
