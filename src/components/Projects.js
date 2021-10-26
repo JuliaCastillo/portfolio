@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <section id="">
+    <section id="projects">
       <div className="wrapper"></div>
     </section>
   );
