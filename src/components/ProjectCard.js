@@ -9,14 +9,12 @@ function ProjectCard({
   //imageAlt,
 }) {
   return (
-    <div className="project-card featured-project-card">
-      {/* <div className="card-image"> */}
+    <div className="project-card featured-projects-card">
       <img
         className="card-image"
         src={image}
         alt="Screenshot of the Edinburgh Hoppers website's homepage"
       />
-      {/* </div> */}
       <div className="card-content">
         <h3>{title}</h3>
         <p>{description}</p>

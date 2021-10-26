@@ -44,7 +44,7 @@ p {
 
 @media (min-width: 64em) {
   .section_wrapper {
-    margin: 120px 140px;
+    margin: 150px 140px;
   }
 }
 
@@ -272,13 +272,13 @@ p {
   }
 }
 
-.featured-project-card {
+.featured-projects-card {
   padding: 30px;
   margin: 40px 10px;
 }
 
 @media (max-width: 63.9375em) {
-  .featured-project-card {
+  .featured-projects-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -286,28 +286,28 @@ p {
   }
 }
 
-.featured-project-card .card-content h3 {
+.featured-projects-card .card-content h3 {
   margin-top: 30px;
 }
 
-.featured-project-card .card-content p {
+.featured-projects-card .card-content p {
   margin-top: 10px;
   max-width: 60ch;
 }
 
 @media (min-width: 64em) {
-  .featured-project-card .card-content {
+  .featured-projects-card .card-content {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
     text-align: left;
   }
-  .featured-project-card .card-content h3 {
+  .featured-projects-card .card-content h3 {
     margin: 0;
   }
 }
 
-.featured-project-card .card-image {
+.featured-projects-card .card-image {
   width: 90%;
   -webkit-box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
           box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
@@ -315,13 +315,13 @@ p {
 }
 
 @media (min-width: 40em) {
-  .featured-project-card .card-image {
+  .featured-projects-card .card-image {
     width: 60%;
   }
 }
 
 @media (min-width: 64em) {
-  .featured-project-card .card-image {
+  .featured-projects-card .card-image {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
@@ -331,7 +331,7 @@ p {
   }
 }
 
-.other-projects-wrapper {
+.other-projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,7 +345,7 @@ p {
 }
 
 @media (max-width: 39.9375em) {
-  .other-projects-wrapper {
+  .other-projects {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -353,22 +353,27 @@ p {
   }
 }
 
-.other-project-card {
+.other-projects-card {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 10px;
+  margin: 30px 5px 0;
+}
+
+.other-projects-card p {
+  margin-top: 5px;
 }
 
 @media (min-width: 40em) {
-  .other-project-card {
-    width: 50%;
+  .other-projects-card {
+    width: 47%;
   }
 }
 
 @media (min-width: 64em) {
-  .other-project-card {
+  .other-projects-card {
     width: 30%;
   }
 }

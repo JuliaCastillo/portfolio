@@ -35,53 +35,54 @@
   }
 }
 
-.featured-project-card {
-  padding: 30px;
-  margin: 40px 10px;
+.featured-projects {
+  &-card {
+    padding: 30px;
+    margin: 40px 10px;
 
-  @include breakpoint-down(medium) {
-    flex-direction: column;
-  }
-
-  .card-content {
-    h3 {
-      margin-top: 30px;
+    @include breakpoint-down(medium) {
+      flex-direction: column;
     }
 
-    p {
-      margin-top: 10px;
-      max-width: 60ch;
-    }
-
-    @include breakpoint-up(large) {
-      order: 1;
-      text-align: left;
+    .card-content {
       h3 {
-        margin: 0;
+        margin-top: 30px;
+      }
+
+      p {
+        margin-top: 10px;
+        max-width: 60ch;
+      }
+
+      @include breakpoint-up(large) {
+        order: 1;
+        text-align: left;
+        h3 {
+          margin: 0;
+        }
       }
     }
-  }
 
-  .card-image {
-    width: 90%;
-    box-shadow: 10px 10px 6px 1px rgba($dark-purple, 0.3);
-    border-radius: 10px;
+    .card-image {
+      width: 90%;
+      box-shadow: 10px 10px 6px 1px rgba($dark-purple, 0.3);
+      border-radius: 10px;
 
-    @include breakpoint-up(medium) {
-      width: 60%;
-    }
+      @include breakpoint-up(medium) {
+        width: 60%;
+      }
 
-    @include breakpoint-up(large) {
-      order: 2;
-      height: 90%;
-      margin-left: 30px;
-      max-width: 350px;
+      @include breakpoint-up(large) {
+        order: 2;
+        height: 90%;
+        margin-left: 30px;
+        max-width: 350px;
+      }
     }
   }
 }
 
-.other-projects-wrapper {
-  //width: 100%;
+.other-projects {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -89,17 +90,22 @@
   @include breakpoint-down(small) {
     flex-direction: column;
   }
-}
-.other-project-card {
-  flex-direction: column;
-  //width: 80%;
-  padding: 10px;
 
-  @include breakpoint-up(medium) {
-    width: 50%;
-  }
+  &-card {
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px 5px 0;
 
-  @include breakpoint-up(large) {
-    width: 30%;
+    p {
+      margin-top: 5px;
+    }
+
+    @include breakpoint-up(medium) {
+      width: 47%;
+    }
+
+    @include breakpoint-up(large) {
+      width: 30%;
+    }
   }
 }

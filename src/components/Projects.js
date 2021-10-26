@@ -11,14 +11,16 @@ function Projects() {
         <div className="section_title">
           <h2>PROJECTS</h2>
         </div>
-        {projectsList.map((project) => {
-          return <ProjectCard {...project}></ProjectCard>;
-        })}
+        <div className="featured-projects">
+          {projectsList.map((project) => {
+            return <ProjectCard {...project}></ProjectCard>;
+          })}
+        </div>
 
         <div className="section_title">
           <h3>OTHER PROJECTS</h3>
         </div>
-        <div className="other-projects-wrapper">
+        <div className="other-projects">
           {otherProjectsList.map((project) => {
             return <OtherProjectCard {...project}></OtherProjectCard>;
           })}
