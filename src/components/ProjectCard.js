@@ -19,10 +19,20 @@ function ProjectCard({
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="card-buttons">
-          <a href={codeLink} className="button">
+          <a
+            href={codeLink}
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Code
           </a>
-          <a href={demoLink} className="button">
+          <a
+            href={demoLink}
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Live website
           </a>
         </div>

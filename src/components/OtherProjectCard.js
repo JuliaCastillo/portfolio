@@ -6,10 +6,20 @@ function OtherProjectCard({ title, description, codeLink, demoLink }) {
       <h4>{title}</h4>
       <p>{description}</p>
       <div className="card-buttons">
-        <a href={codeLink} className="button">
+        <a
+          href={codeLink}
+          className="button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Code
         </a>
-        <a href={demoLink} className="button">
+        <a
+          href={demoLink}
+          className="button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Demo
         </a>
       </div>
