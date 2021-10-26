@@ -12,6 +12,10 @@ function Projects() {
         {projectsList.map((project) => {
           return <ProjectCard {...project}></ProjectCard>;
         })}
+
+        <div className="section_title">
+          <h3>OTHER PROJECTS</h3>
+        </div>
       </div>
     </section>
   );

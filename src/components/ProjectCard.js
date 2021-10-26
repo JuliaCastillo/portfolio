@@ -9,7 +9,7 @@ function ProjectCard({
   //imageAlt,
 }) {
   return (
-    <div className="project-card">
+    <div className="project-card project-card-border">
       {/* <div className="card-image"> */}
       <img
         className="card-image"

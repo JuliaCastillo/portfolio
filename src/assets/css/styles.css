@@ -219,14 +219,30 @@ p {
   font-size: 1rem;
 }
 
-.project-card {
+.project-card-border {
   position: relative;
   border: 7px solid transparent;
   border-radius: 16px;
-  padding: 30px;
-  margin: 40px 10px;
   background: #fff;
   background-clip: padding-box;
+}
+
+.project-card-border::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
+  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
+  z-index: -1;
+  border-radius: 16px;
+}
+
+.project-card {
+  padding: 30px;
+  margin: 40px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,19 +263,6 @@ p {
   }
 }
 
-.project-card::before {
-  content: "";
-  position: absolute;
-  top: -7px;
-  bottom: -7px;
-  left: -7px;
-  right: -7px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
-  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
-  z-index: -1;
-  border-radius: 16px;
-}
-
 .project-card .card-content h3 {
   margin-top: 30px;
 }
@@ -267,29 +270,6 @@ p {
 .project-card .card-content p {
   margin-top: 10px;
   max-width: 60ch;
-}
-
-.project-card .card-content .card-buttons {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-@media (min-width: 64em) {
-  .project-card .card-content .card-buttons {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-  }
 }
 
 @media (min-width: 64em) {
@@ -325,6 +305,29 @@ p {
     height: 90%;
     margin-left: 30px;
     max-width: 350px;
+  }
+}
+
+.card-buttons {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 64em) {
+  .card-buttons {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
 }
 /*# sourceMappingURL=styles.css.map */

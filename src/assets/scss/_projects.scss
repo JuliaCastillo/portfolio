@@ -1,21 +1,9 @@
-$card-border-width: 7px;
-
-.project-card {
+.project-card-border {
   position: relative;
   border: $card-border-width solid transparent;
   border-radius: 16px;
-  padding: 30px;
-  margin: 40px 10px;
   background: $white;
   background-clip: padding-box;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @include breakpoint-down(medium) {
-    flex-direction: column;
-  }
 
   &::before {
     content: "";
@@ -29,6 +17,31 @@ $card-border-width: 7px;
     z-index: -1;
     border-radius: 16px;
   }
+}
+
+.card-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @include breakpoint-up(large) {
+    justify-content: start;
+  }
+}
+
+.project-card {
+  padding: 30px;
+  margin: 40px 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-down(medium) {
+    flex-direction: column;
+  }
 
   .card-content {
     h3 {
@@ -38,18 +51,6 @@ $card-border-width: 7px;
     p {
       margin-top: 10px;
       max-width: 60ch;
-    }
-
-    .card-buttons {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-
-      @include breakpoint-up(large) {
-        justify-content: start;
-      }
     }
 
     @include breakpoint-up(large) {
@@ -77,4 +78,7 @@ $card-border-width: 7px;
       max-width: 350px;
     }
   }
+}
+
+.other-project-card {
 }
