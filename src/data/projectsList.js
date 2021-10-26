@@ -30,7 +30,7 @@ export const projectsList = [
     description: (
       <>
         <p>
-          A website for Women Empowered, a conferance in celebration of
+          A website for Women Empowered, a conference in celebration of
           International Women’s Day and aimed to commemorate the achievements of
           women in different fields and to advocate for the acceleration of
           gender parity and inclusivity.
@@ -39,9 +39,9 @@ export const projectsList = [
         <p>
           It was developed using Jekyll, HTML5, CSS3 and JavaScript. I was in
           charge of designing and implementing the schedule section, where I
-          used a JavaScript library called Papa Parse to retrieve the schedule
-          information from a Google Sheets document, which was then processed
-          and displayed.
+          used a JavaScript library called Papa Parse to dynamically retrieve
+          the schedule information from a Google Sheets document, which was then
+          processed and displayed.
         </p>
       </>
     ),
