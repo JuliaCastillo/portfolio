@@ -4,38 +4,38 @@ export const otherProjectsList = [
     description: (
       <>
         <p>
-          A website for Edinburgh Hoppers, a society for women, non-binary and
-          transgender people in Informatics at the University of Edinburgh.
+          FrontEnd Mentor challenge - App to calculate tip and split bill
+          between everyone, using HTML5, CSS3 (Flex & Grid) and JavaScript.
         </p>
       </>
     ),
-    codeLink: "https://github.com/edinburgh-hoppers/website_new",
-    demoLink: "https://edinburghhoppers.com/",
+    codeLink: "https://github.com/JuliaCastillo/FM-tip-calculator-app",
+    demoLink: "https://juliacastillo.github.io/FM-tip-calculator-app/",
   },
   {
-    title: "Tip calculator",
+    title: "Social proof section",
     description: (
       <>
         <p>
-          A website for Edinburgh Hoppers, a society for women, non-binary and
-          transgender people in Informatics at the University of Edinburgh.
+          FrontEnd Mentor challenge - Fully responsive social proof section
+          using HTML5 and CSS3 (Flex and Grid).
         </p>
       </>
     ),
-    codeLink: "https://github.com/edinburgh-hoppers/website_new",
-    demoLink: "https://edinburghhoppers.com/",
+    codeLink: "https://github.com/JuliaCastillo/FM-social-proof-section",
+    demoLink: "https://juliacastillo.github.io/FM-social-proof-section/",
   },
   {
-    title: "Tip calculator",
+    title: "Coming soon page",
     description: (
       <>
         <p>
-          A website for Edinburgh Hoppers, a society for women, non-binary and
-          transgender people in Informatics at the University of Edinburgh.
+          FrontEnd Mentor challenge - Coming soon page with input form and
+          validation using HTML5, CSS3 (Flex and Grid) and JavaScript.
         </p>
       </>
     ),
-    codeLink: "https://github.com/edinburgh-hoppers/website_new",
-    demoLink: "https://edinburghhoppers.com/",
+    codeLink: "https://github.com/JuliaCastillo/FM-base-apparel-coming-soon",
+    demoLink: "https://juliacastillo.github.io/FM-base-apparel-coming-soon/",
   },
 ];

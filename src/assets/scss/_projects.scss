@@ -84,7 +84,7 @@
 
 .other-projects {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-around;
   flex-wrap: wrap;
   @include breakpoint-down(small) {
