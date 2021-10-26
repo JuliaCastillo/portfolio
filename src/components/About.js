@@ -15,12 +15,12 @@ function About() {
             accessibility.
           </p>
           <p>
-            I recently graduated from the University of Edinburgh with a MInf
-            Informatics degree, where I was able to work in multiple projects
-            using different programming languages such as Java, C, Python, React
-            Native, etc. However, after trying my hand at different languages, I
-            found a passion for web development, and especifically, frontend
-            development.
+            I recently graduated from the University of Edinburgh with a first
+            degree in MInf Informatics, where I was able to work in multiple
+            projects using different programming languages such as Java, C,
+            Python, React Native, etc. However, after trying my hand at
+            different languages, I found a passion for web development, and
+            especifically, frontend development.
           </p>
           <p>
             In my spare time, I like to learn languages (currently studying

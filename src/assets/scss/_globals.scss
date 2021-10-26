@@ -65,4 +65,10 @@ p {
   text-decoration: none;
   color: $white;
   white-space: nowrap;
+
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
