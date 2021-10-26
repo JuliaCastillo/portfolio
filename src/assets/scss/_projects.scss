@@ -1,9 +1,13 @@
-.project-card-border {
+.project-card {
   position: relative;
   border: $card-border-width solid transparent;
   border-radius: 16px;
   background: $white;
   background-clip: padding-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &::before {
     content: "";
@@ -31,13 +35,9 @@
   }
 }
 
-.project-card {
+.featured-project-card {
   padding: 30px;
   margin: 40px 10px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   @include breakpoint-down(medium) {
     flex-direction: column;
@@ -80,5 +80,26 @@
   }
 }
 
+.other-projects-wrapper {
+  //width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  @include breakpoint-down(small) {
+    flex-direction: column;
+  }
+}
 .other-project-card {
+  flex-direction: column;
+  //width: 80%;
+  padding: 10px;
+
+  @include breakpoint-up(medium) {
+    width: 50%;
+  }
+
+  @include breakpoint-up(large) {
+    width: 30%;
+  }
 }

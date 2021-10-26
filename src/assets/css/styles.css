@@ -219,30 +219,12 @@ p {
   font-size: 1rem;
 }
 
-.project-card-border {
+.project-card {
   position: relative;
   border: 7px solid transparent;
   border-radius: 16px;
   background: #fff;
   background-clip: padding-box;
-}
-
-.project-card-border::before {
-  content: "";
-  position: absolute;
-  top: -7px;
-  bottom: -7px;
-  left: -7px;
-  right: -7px;
-  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
-  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
-  z-index: -1;
-  border-radius: 16px;
-}
-
-.project-card {
-  padding: 30px;
-  margin: 40px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,58 +236,17 @@ p {
           align-items: center;
 }
 
-@media (max-width: 63.9375em) {
-  .project-card {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.project-card .card-content h3 {
-  margin-top: 30px;
-}
-
-.project-card .card-content p {
-  margin-top: 10px;
-  max-width: 60ch;
-}
-
-@media (min-width: 64em) {
-  .project-card .card-content {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    text-align: left;
-  }
-  .project-card .card-content h3 {
-    margin: 0;
-  }
-}
-
-.project-card .card-image {
-  width: 90%;
-  -webkit-box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
-          box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
-  border-radius: 10px;
-}
-
-@media (min-width: 40em) {
-  .project-card .card-image {
-    width: 60%;
-  }
-}
-
-@media (min-width: 64em) {
-  .project-card .card-image {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    height: 90%;
-    margin-left: 30px;
-    max-width: 350px;
-  }
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  bottom: -7px;
+  left: -7px;
+  right: -7px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
+  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
+  z-index: -1;
+  border-radius: 16px;
 }
 
 .card-buttons {
@@ -328,6 +269,107 @@ p {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+  }
+}
+
+.featured-project-card {
+  padding: 30px;
+  margin: 40px 10px;
+}
+
+@media (max-width: 63.9375em) {
+  .featured-project-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.featured-project-card .card-content h3 {
+  margin-top: 30px;
+}
+
+.featured-project-card .card-content p {
+  margin-top: 10px;
+  max-width: 60ch;
+}
+
+@media (min-width: 64em) {
+  .featured-project-card .card-content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: left;
+  }
+  .featured-project-card .card-content h3 {
+    margin: 0;
+  }
+}
+
+.featured-project-card .card-image {
+  width: 90%;
+  -webkit-box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
+          box-shadow: 10px 10px 6px 1px rgba(105, 34, 255, 0.3);
+  border-radius: 10px;
+}
+
+@media (min-width: 40em) {
+  .featured-project-card .card-image {
+    width: 60%;
+  }
+}
+
+@media (min-width: 64em) {
+  .featured-project-card .card-image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 90%;
+    margin-left: 30px;
+    max-width: 350px;
+  }
+}
+
+.other-projects-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 39.9375em) {
+  .other-projects-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.other-project-card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+@media (min-width: 40em) {
+  .other-project-card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 64em) {
+  .other-project-card {
+    width: 30%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

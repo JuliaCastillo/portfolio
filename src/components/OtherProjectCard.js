@@ -2,7 +2,7 @@ import React from "react";
 
 function OtherProjectCard({ title, description, codeLink, demoLink }) {
   return (
-    <div className="other-project-card project-card-border">
+    <div className="other-project-card project-card">
       <h4>{title}</h4>
       <p>{description}</p>
       <div className="card-buttons">

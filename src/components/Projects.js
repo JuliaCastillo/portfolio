@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { projectsList } from "../data/projectsList";
+import OtherProjectCard from "./OtherProjectCard";
+import { otherProjectsList } from "../data/otherProjectsList";
 
 function Projects() {
   return (
@@ -15,6 +17,11 @@ function Projects() {
 
         <div className="section_title">
           <h3>OTHER PROJECTS</h3>
+        </div>
+        <div className="other-projects-wrapper">
+          {otherProjectsList.map((project) => {
+            return <OtherProjectCard {...project}></OtherProjectCard>;
+          })}
         </div>
       </div>
     </section>
