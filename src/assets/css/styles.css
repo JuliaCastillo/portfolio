@@ -31,6 +31,11 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .section_wrapper {
   margin: 150px 30px;
   text-align: center;
@@ -78,6 +83,26 @@ p {
 .button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #a52dff;
+  z-index: 1;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero {
