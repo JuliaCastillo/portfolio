@@ -2,6 +2,7 @@ import React from "react";
 import Skills from "./Skills";
 
 function About() {
+  const CVloc = "";
   return (
     <section id="about" className="about">
       <div className="section_wrapper about__content">
@@ -27,7 +28,16 @@ function About() {
             Chinese), organise my life with Notion, find ways to be more
             productive and learn about web development and accessibility.
           </p>
+          <a
+            href={CVloc}
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download CV
+          </a>
         </div>
+
         <div className="section_title">
           <h3>SKILLS</h3>
         </div>
