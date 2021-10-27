@@ -1,9 +1,7 @@
 .header {
   position: sticky;
   top: 0;
-  //height: 70px;
   background: transparent;
-  //margin-bottom: -30px;
   z-index: 2;
 
   &.active {
@@ -28,6 +26,19 @@
       align-items: center;
 
       width: 100%;
+      padding: 20px;
+
+      background: $dark-purple;
+      //animation: fade-out 300ms ease-in-out forwards;
+
+      a {
+        padding: 10px;
+      }
+    }
+
+    .header__background {
+      height: 185px;
+      background: $gradient2;
     }
   }
 
@@ -35,12 +46,14 @@
     width: 100%;
     height: 70px;
     background: $gradient2;
+    animation: all 500ms ease-in-out;
   }
 
   &__toggle {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 0;
+    z-index: 3;
 
     padding: 20px;
 
@@ -51,7 +64,7 @@
 
       border-radius: 15px;
       background-color: $white;
-      transition: all 300ms ease-in-out;
+      transition: all 500ms ease-in-out;
       transform-origin: 3.5px 1.5px;
 
       &:not(:last-child) {
@@ -72,7 +85,6 @@
       font-size: 1.375rem;
       font-weight: 600;
       padding: 10px;
-      //color: $dark-purple;
     }
 
     @include breakpoint-up(medium) {
