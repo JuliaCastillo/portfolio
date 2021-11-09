@@ -8,11 +8,11 @@ function Navbar() {
 
   const toggleMenu = (e) => {
     e.preventDefault();
-    if (menuOpen) {
-      setNavClass("header__nav fade-out");
-    } else {
-      setNavClass("header__nav fade-in");
-    }
+    // if (menuOpen) {
+    //   setNavClass("header__nav fade-out");
+    // } else {
+    //   setNavClass("header__nav fade-in");
+    // }
     setMenuOpen(!menuOpen);
   };
 
@@ -32,11 +32,11 @@ function Navbar() {
   return (
     <header id="header" className={menuOpen ? "header active" : "header"}>
       <div className={navbarBackground ? "header__background" : null}>
-        <a href="#" className="header__toggle" onClick={toggleMenu}>
+        <button className="header__toggle" onClick={toggleMenu}>
           <span></span>
           <span></span>
           <span></span>
-        </a>
+        </button>
 
         <nav className={navClass} onClick={() => setMenuOpen(false)}>
           <a href="#about">About me</a>

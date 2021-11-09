@@ -1,8 +1,8 @@
 import React from "react";
 import Skills from "./Skills";
+import cv from "../data/CV-JuliaCastilloTrujillo.pdf";
 
 function About() {
-  const CVloc = "";
   return (
     <section id="about" className="about">
       <div className="section_wrapper about__content">
@@ -29,7 +29,7 @@ function About() {
             productive and learn about web development and accessibility.
           </p>
           <a
-            href={CVloc}
+            href={cv}
             className="button"
             target="_blank"
             rel="noopener noreferrer"

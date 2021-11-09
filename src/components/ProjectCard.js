@@ -6,15 +6,11 @@ function ProjectCard({
   codeLink,
   demoLink,
   image,
-  //imageAlt,
+  imageAlt,
 }) {
   return (
     <div className="project-card featured-projects-card">
-      <img
-        className="card-image"
-        src={image}
-        alt="Screenshot of the Edinburgh Hoppers website's homepage"
-      />
+      <img className="card-image" src={image} alt="imageAlt" />
       <div className="card-content">
         <h3>{title}</h3>
         <p>{description}</p>
