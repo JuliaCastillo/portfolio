@@ -5,8 +5,7 @@ import emailLogo from "../assets/img/email.svg";
 
 function Hero() {
   const githubLink = "https://github.com/JuliaCastillo";
-  const linkedinLink =
-    "https://www.linkedin.com/in/julia-castillo-trujillo-1bb375172/";
+  const linkedinLink = "https://www.linkedin.com/in/juliacastillotrujillo";
   const emailLink = "mailto:juliacastillotrujillo@gmail.com";
 
   return (
