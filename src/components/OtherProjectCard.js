@@ -8,7 +8,7 @@ function OtherProjectCard({ title, description, codeLink, demoLink }) {
       <div className="card-buttons">
         <a
           href={codeLink}
-          className="button"
+          className="link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -16,7 +16,7 @@ function OtherProjectCard({ title, description, codeLink, demoLink }) {
         </a>
         <a
           href={demoLink}
-          className="button"
+          className="link"
           target="_blank"
           rel="noopener noreferrer"
         >

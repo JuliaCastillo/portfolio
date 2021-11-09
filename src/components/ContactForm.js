@@ -43,7 +43,7 @@ function ContactForm({ setSnackbarOpen }) {
       </div>
       <div className="input-wrapper message-input">
         <label for="message-input">Message</label>
-        <textarea id="message-input" name="message" rows="5" />
+        <textarea id="message-input" name="message" rows="6" />
       </div>
       <input type="submit" value="Send" />
     </form>

@@ -159,10 +159,10 @@ section {
   margin-top: 10px;
 }
 
-.button {
+.link {
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 800;
   border-radius: 40px;
   border: none;
   margin: 10px;
@@ -171,10 +171,8 @@ section {
   white-space: nowrap;
 }
 
-input,
-textarea {
-  border: 3px solid #a52dff;
-  border-radius: 5px;
+.link:hover {
+  color: #0500f5;
 }
 
 .header {
@@ -601,5 +599,75 @@ textarea {
   .other-projects-card {
     width: 30%;
   }
+}
+
+.contact form {
+  margin: auto;
+  max-width: 40ch;
+}
+
+@media (min-width: 40em) {
+  .contact form {
+    width: 80%;
+  }
+}
+
+.contact .input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contact .input-wrapper input,
+.contact .input-wrapper textarea {
+  display: inline-block;
+  border: 3px solid #a52dff;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  padding: 5px;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -appearance: none;
+  outline: none;
+}
+
+.contact .input-wrapper input:focus, .contact .input-wrapper input:active,
+.contact .input-wrapper textarea:focus,
+.contact .input-wrapper textarea:active {
+  border: 3px solid #0500f5;
+}
+
+.contact .input-wrapper label {
+  padding: 5px;
+  font-size: 1.125rem;
+}
+
+.contact input[type="submit"] {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125rem;
+  background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
+  background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
+  border-radius: 40px;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  color: #fff;
+  white-space: nowrap;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.contact input[type="submit"]:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=styles.css.map */

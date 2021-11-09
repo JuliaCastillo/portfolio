@@ -17,7 +17,7 @@ function ProjectCard({
         <div className="card-buttons">
           <a
             href={codeLink}
-            className="button"
+            className="link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ function ProjectCard({
           </a>
           <a
             href={demoLink}
-            className="button"
+            className="link"
             target="_blank"
             rel="noopener noreferrer"
           >

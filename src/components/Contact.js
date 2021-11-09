@@ -12,8 +12,8 @@ function Contact() {
 
   const { vertical, horizontal } = snackbarPosition;
   return (
-    <section id="contact">
-      <div className="section_wrapper">
+    <section id="contact" className="contact">
+      <div className="section_wrapper contact__content">
         <div className="section_title">
           <h2>CONTACT</h2>
         </div>

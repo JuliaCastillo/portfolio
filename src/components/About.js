@@ -30,7 +30,7 @@ function About() {
           </p>
           <a
             href={cv}
-            className="button"
+            className="link"
             target="_blank"
             rel="noopener noreferrer"
           >

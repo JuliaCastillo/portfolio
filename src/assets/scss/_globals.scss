@@ -38,6 +38,7 @@ a {
     transform: scale(1.1);
   }
 }
+
 section {
   scroll-margin-top: 120px;
 }
@@ -69,10 +70,10 @@ section {
   }
 }
 
-.button {
+.link {
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
-  font-weight: 700;
+  font-weight: 800;
   //background: $gradient;
   border-radius: 40px;
   border: none;
@@ -83,15 +84,7 @@ section {
   color: $dark-purple;
   white-space: nowrap;
 
-  // transition: all 300ms ease-in-out;
-
-  // &:hover {
-  //   transform: scale(1.1);
-  // }
-}
-
-input,
-textarea {
-  border: 3px solid $purple;
-  border-radius: 5px;
+  &:hover {
+    color: $dark-blue;
+  }
 }

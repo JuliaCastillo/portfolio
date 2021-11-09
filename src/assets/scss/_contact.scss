@@ -1,0 +1,67 @@
+.contact {
+  &__content {
+  }
+  form {
+    margin: auto;
+    max-width: 40ch;
+
+    @include breakpoint-up(medium) {
+      width: 80%;
+    }
+  }
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    //padding: 0px 100px;
+    margin-top: 20px;
+
+    input,
+    textarea {
+      display: inline-block;
+      border: 3px solid $purple;
+      border-radius: 5px;
+      font-family: "Raleway", sans-serif;
+      font-size: 1rem;
+      padding: 5px;
+
+      -webkit-appearance: none;
+      -ms-appearance: none;
+      -moz-appearance: none;
+      -appearance: none;
+
+      outline: none;
+
+      &:focus,
+      &:active {
+        border: 3px solid $dark-blue;
+      }
+    }
+
+    label {
+      padding: 5px;
+      font-size: 1.125rem;
+    }
+  }
+
+  input[type="submit"] {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.125rem;
+    //font-weight: 800;
+    background: $gradient;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+
+    color: $white;
+    white-space: nowrap;
+
+    transition: all 300ms ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
