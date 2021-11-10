@@ -4,15 +4,9 @@ import { useState, useEffect } from "react";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [navbarBackground, setNavbarBackground] = useState(false);
-  const [navClass, setNavClass] = useState("header__nav fade-in");
 
   const toggleMenu = (e) => {
     e.preventDefault();
-    // if (menuOpen) {
-    //   setNavClass("header__nav fade-out");
-    // } else {
-    //   setNavClass("header__nav fade-in");
-    // }
     setMenuOpen(!menuOpen);
   };
 
@@ -38,7 +32,7 @@ function Navbar() {
           <span></span>
         </button>
 
-        <nav className={navClass} onClick={() => setMenuOpen(false)}>
+        <nav className="header__nav fade-in" onClick={() => setMenuOpen(false)}>
           <a href="#about">About me</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>

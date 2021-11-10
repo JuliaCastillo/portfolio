@@ -5,7 +5,7 @@ import Snackbar from "@mui/material/Snackbar";
 function Contact() {
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
-  const [snackbarPosition, setSnackbarPosition] = useState({
+  const [snackbarPosition] = useState({
     vertical: "bottom",
     horizontal: "center",
   });

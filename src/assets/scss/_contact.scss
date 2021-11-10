@@ -20,7 +20,7 @@
     input,
     textarea {
       display: inline-block;
-      border: 3px solid $purple;
+      border: 3px solid $dark-purple;
       border-radius: 5px;
       font-family: "Raleway", sans-serif;
       font-size: 1rem;
@@ -48,12 +48,12 @@
   input[type="submit"] {
     font-family: "Raleway", sans-serif;
     font-size: 1.125rem;
-    //font-weight: 800;
+    font-weight: 600;
     background: $gradient;
     border-radius: 40px;
     border: none;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 30px;
     cursor: pointer;
 
     color: $white;

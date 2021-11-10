@@ -14,7 +14,7 @@ export const projectsList = [
 
         <p>
           It was developed by me and Aparna Rajeev, a fellow committee member,
-          using Jekyll, HTML5, CSS3 and mutiple JavaScript libraries. I was in
+          using Jekyll, HTML5, CSS3 and multiple JavaScript libraries. I was in
           charge of designing and implementing the home page as well as the
           about us, events and sponsors pages.
         </p>

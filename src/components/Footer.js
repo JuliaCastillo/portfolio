@@ -8,15 +8,14 @@ function Footer() {
         <Profiles />
         <p>
           Designed and developed with{" "}
-          <a
+          {/* <a
             className="link"
             href="https://reactjs.org/"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            React
-          </a>{" "}
-          by Julia
+          > */}
+          React
+          {/* </a> */} by Julia
         </p>
       </div>
     </section>

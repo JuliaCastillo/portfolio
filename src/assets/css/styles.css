@@ -124,6 +124,22 @@ a:hover {
           transform: scale(1.1);
 }
 
+.link {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 40px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  color: #6922ff;
+  white-space: nowrap;
+}
+
+.link:hover {
+  font-weight: 800;
+}
+
 section {
   scroll-margin-top: 120px;
 }
@@ -159,32 +175,15 @@ section {
   margin-top: 10px;
 }
 
-.link {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-  border-radius: 40px;
-  border: none;
-  margin: 10px;
-  text-decoration: underline;
-  color: #6922ff;
-  white-space: nowrap;
-}
-
-.link:hover {
-  -webkit-transform: none;
-          transform: none;
-  font-weight: 800;
-}
-
 .profiles {
   padding: 30px 0;
 }
 
 .profiles a img {
-  width: 40px;
-  height: 40px;
-  margin: 10px 7px;
+  width: 65px;
+  height: 65px;
+  margin: 5px;
+  padding: 5px;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -196,9 +195,9 @@ section {
 
 @media (min-width: 40em) {
   .profiles a img {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 7px;
   }
 }
 
@@ -270,9 +269,17 @@ section {
   top: 5px;
   right: 0;
   z-index: 3;
+  cursor: pointer;
   padding: 20px;
   background: none;
   border: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.header__toggle:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .header__toggle > span {
@@ -305,7 +312,7 @@ section {
 .header__nav a {
   font-size: 1.375rem;
   font-weight: 600;
-  padding: 10px;
+  padding: 15px;
 }
 
 @media (min-width: 40em) {
@@ -342,7 +349,7 @@ section {
 .hero__content {
   width: 100%;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .hero__content h1 {
@@ -350,7 +357,7 @@ section {
   position: relative;
   isolation: isolate;
   mix-blend-mode: screen;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin: 80px 0;
 }
 
@@ -379,7 +386,7 @@ section {
   margin: 3.75rem auto 20px;
   font-style: italic;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 40em) {
@@ -629,7 +636,7 @@ section {
 .contact .input-wrapper input,
 .contact .input-wrapper textarea {
   display: inline-block;
-  border: 3px solid #a52dff;
+  border: 3px solid #6922ff;
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
@@ -655,12 +662,13 @@ section {
 .contact input[type="submit"] {
   font-family: "Raleway", sans-serif;
   font-size: 1.125rem;
+  font-weight: 600;
   background: -webkit-gradient(linear, left top, right bottom, from(#a52dff), color-stop(#6922ff), to(#0500f5));
   background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
   border-radius: 40px;
   border: none;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 30px;
   cursor: pointer;
   color: #fff;
   white-space: nowrap;
@@ -678,7 +686,7 @@ section {
   background: linear-gradient(to bottom right, #a52dff, #6922ff, #0500f5);
   position: relative;
   bottom: 0;
-  height: 180px;
+  height: 210px;
 }
 
 .footer .section_wrapper {
