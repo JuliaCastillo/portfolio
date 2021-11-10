@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "./Link.js";
 
 function ProjectCard({
   title,
@@ -15,22 +16,16 @@ function ProjectCard({
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="card-buttons">
-          <a
+          <Link
+            name="Code"
             href={codeLink}
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Code
-          </a>
-          <a
+            ariaLabel={`Link to Github page with the code for ${title} - opens in a new page`}
+          />
+          <Link
+            name="Live website"
             href={demoLink}
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Live website
-          </a>
+            ariaLabel={`Link to website for ${title} - opens in a new page`}
+          />
         </div>
       </div>
     </div>

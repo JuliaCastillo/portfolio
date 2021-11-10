@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "./Link.js";
 
 function OtherProjectCard({ title, description, codeLink, demoLink }) {
   return (
@@ -6,22 +7,16 @@ function OtherProjectCard({ title, description, codeLink, demoLink }) {
       <h4>{title}</h4>
       <p>{description}</p>
       <div className="card-buttons">
-        <a
+        <Link
+          name="Code"
           href={codeLink}
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code
-        </a>
-        <a
+          ariaLabel="Link to Github page with the code for this project - opens in a new page"
+        />
+        <Link
+          name="Demo"
           href={demoLink}
-          className="link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Demo
-        </a>
+          ariaLabel="Link to website for this project - opens in a new page"
+        />
       </div>
     </div>
   );
