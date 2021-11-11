@@ -93,7 +93,7 @@
 
   &-card {
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 15px;
     margin: 30px 5px 0;
 
     p {
@@ -106,6 +106,7 @@
 
     @include breakpoint-up(large) {
       width: 30%;
+      padding: 10px 20px;
     }
   }
 }

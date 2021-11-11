@@ -418,6 +418,10 @@ section {
   margin: 20px 0;
 }
 
+.about__text a {
+  margin: 0;
+}
+
 .about .skills {
   margin: 30px auto;
   max-width: 50ch;
@@ -590,7 +594,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 10px 15px;
   margin: 30px 5px 0;
 }
 
@@ -607,6 +611,7 @@ section {
 @media (min-width: 64em) {
   .other-projects-card {
     width: 30%;
+    padding: 10px 20px;
   }
 }
 
