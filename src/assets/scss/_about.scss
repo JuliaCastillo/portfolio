@@ -1,11 +1,11 @@
 .about {
   &__text {
-    margin: 30px auto 40px;
+    margin: 1.875rem auto 2.5rem;
     max-width: 70ch;
     text-align: center;
     p {
       font-size: 1.125rem;
-      margin: 20px 0;
+      margin: 1.25rem 0;
     }
 
     a {
@@ -14,19 +14,19 @@
   }
 
   .skills {
-    margin: 30px auto;
+    margin: 1.875rem auto;
     max-width: 50ch;
 
     @include breakpoint-up(medium) {
-      margin: 30px auto;
+      margin: 1.875rem auto;
     }
   }
 
   .skilltag {
     display: inline-block;
-    padding: 10px 20px;
-    margin: 4px 3px;
-    border-radius: 20px;
+    padding: 0.625rem 1.25rem;
+    margin: 0.25rem 0.1875rem;
+    border-radius: 1.25rem;
     color: $white;
 
     background-color: $dark-blue;

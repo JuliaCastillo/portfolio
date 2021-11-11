@@ -28,37 +28,37 @@
       align-items: center;
 
       width: 100%;
-      padding: 20px;
+      padding: 1.25rem;
 
       background: $white;
 
       a {
-        padding: 10px;
+        padding: 0.625rem;
         color: $dark-purple;
       }
     }
 
     .header__background {
-      height: 185px;
+      height: 11.5625rem;
       background: $gradient2;
     }
   }
 
   &__background {
     width: 100%;
-    height: 70px;
+    height: 4.375rem;
     background: $gradient2;
     animation: all 500ms ease-in-out;
   }
 
   &__toggle {
     position: absolute;
-    top: 5px;
+    top: 0.3125rem;
     right: 0;
     z-index: 3;
     cursor: pointer;
 
-    padding: 20px;
+    padding: 1.25rem;
     background: none;
     border: none;
 
@@ -70,16 +70,16 @@
 
     > span {
       display: block;
-      width: 30px;
-      height: 3px;
+      width: 1.875rem;
+      height: 0.1875rem;
 
-      border-radius: 15px;
+      border-radius: 0.9375rem;
       background-color: $white;
       transition: all 500ms ease-in-out;
-      transform-origin: 3.5px 1.5px;
+      transform-origin: 0.21875rem 0.09375rem;
 
       &:not(:last-child) {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125rem;
       }
     }
 
@@ -95,7 +95,7 @@
     a {
       font-size: 1.375rem;
       font-weight: 600;
-      padding: 15px;
+      padding: 0.9375rem;
     }
 
     @include breakpoint-up(medium) {
@@ -104,7 +104,7 @@
       align-items: center;
 
       width: 100%;
-      padding: 10px;
+      padding: 0.625rem;
     }
   }
 }

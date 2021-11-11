@@ -2,14 +2,14 @@
   background: $gradient;
   position: relative;
   bottom: 0;
-  height: 190px;
+  height: 11.875rem;
 
   p {
     font-size: 1rem;
     font-weight: 500;
     color: $white;
     margin: auto;
-    margin-bottom: -20px;
+    margin-bottom: -1.25rem;
 
     @include breakpoint-up(medium) {
       font-size: 1.125rem;

@@ -1,7 +1,7 @@
 .project-card {
   position: relative;
   border: $card-border-width solid transparent;
-  border-radius: 16px;
+  border-radius: 1rem;
   background: $white;
   background-clip: padding-box;
 
@@ -19,12 +19,12 @@
     background: $gradient;
 
     z-index: -1;
-    border-radius: 16px;
+    border-radius: 1rem;
   }
 }
 
 .card-buttons {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,8 +37,8 @@
 
 .featured-projects {
   &-card {
-    padding: 30px;
-    margin: 40px 10px;
+    padding: 1.875rem;
+    margin: 2.5rem 0.625rem;
 
     @include breakpoint-down(medium) {
       flex-direction: column;
@@ -46,11 +46,11 @@
 
     .card-content {
       h3 {
-        margin-top: 30px;
+        margin-top: 1.875rem;
       }
 
       p {
-        margin-top: 10px;
+        margin-top: 0.625rem;
         max-width: 60ch;
       }
 
@@ -65,8 +65,8 @@
 
     .card-image {
       width: 90%;
-      box-shadow: 10px 10px 6px 1px rgba($dark-purple, 0.3);
-      border-radius: 10px;
+      box-shadow: 0.625rem 0.625rem 0.375rem 0.0625rem rgba($dark-purple, 0.3);
+      border-radius: 0.625rem;
 
       @include breakpoint-up(medium) {
         width: 60%;
@@ -75,8 +75,8 @@
       @include breakpoint-up(large) {
         order: 2;
         height: 90%;
-        margin-left: 30px;
-        max-width: 350px;
+        margin-left: 1.875rem;
+        max-width: 21.875rem;
       }
     }
   }
@@ -93,11 +93,11 @@
 
   &-card {
     flex-direction: column;
-    padding: 10px 15px;
-    margin: 30px 5px 0;
+    padding: 0.625rem 0.9375rem;
+    margin: 1.875rem 0.3125rem 0;
 
     p {
-      margin-top: 5px;
+      margin-top: 0.3125rem;
     }
 
     @include breakpoint-up(medium) {
@@ -106,7 +106,7 @@
 
     @include breakpoint-up(large) {
       width: 30%;
-      padding: 10px 20px;
+      padding: 0.625rem 1.25rem;
     }
   }
 }

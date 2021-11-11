@@ -14,17 +14,16 @@
     flex-direction: column;
     text-align: left;
 
-    //padding: 0px 100px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 
     input,
     textarea {
       display: inline-block;
-      border: 3px solid $dark-purple;
-      border-radius: 5px;
+      border: 0.1875rem solid $dark-purple;
+      border-radius: 0.3125rem;
       font-family: "Raleway", sans-serif;
       font-size: 1rem;
-      padding: 5px;
+      padding: 0.3125rem;
 
       -webkit-appearance: none;
       -ms-appearance: none;
@@ -35,12 +34,12 @@
 
       &:focus,
       &:active {
-        border: 3px solid $dark-blue;
+        border: 0.1875rem solid $dark-blue;
       }
     }
 
     label {
-      padding: 5px;
+      padding: 0.3125rem;
       font-size: 1.125rem;
     }
   }
@@ -50,10 +49,10 @@
     font-size: 1.125rem;
     font-weight: 600;
     background: $gradient;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     border: none;
-    padding: 10px 20px;
-    margin: 30px;
+    padding: 0.625rem 1.25rem;
+    margin: 1.875rem;
     cursor: pointer;
 
     color: $white;
