@@ -7,7 +7,7 @@ function About() {
     <section id="about" className="about">
       <div className="section_wrapper about__content">
         <div className="section_title">
-          <h2>ABOUT ME</h2>
+          <h2>About me</h2>
         </div>
         <div className="about__text">
           <p>
@@ -39,7 +39,7 @@ function About() {
         </div>
 
         <div className="section_title">
-          <h3>SKILLS</h3>
+          <h3>Skills</h3>
         </div>
         <Skills />
       </div>

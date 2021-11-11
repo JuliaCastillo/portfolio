@@ -15,7 +15,7 @@ function Contact() {
     <section id="contact" className="contact">
       <div className="section_wrapper contact__content">
         <div className="section_title">
-          <h2>CONTACT</h2>
+          <h2>Contact</h2>
         </div>
         <ContactForm setSnackbarOpen={setSnackbarOpen} />
       </div>
