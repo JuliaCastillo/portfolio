@@ -4,7 +4,7 @@ export const otherProjectsList = [
     description: (
       <>
         <p>
-          FrontEnd Mentor challenge - App to calculate tip and split bill
+          Frontend Mentor challenge - App to calculate tip and split bill
           between everyone, using HTML5, CSS3 (Flex & Grid) and JavaScript.
         </p>
       </>
@@ -17,7 +17,7 @@ export const otherProjectsList = [
     description: (
       <>
         <p>
-          FrontEnd Mentor challenge - Fully responsive social proof section
+          Frontend Mentor challenge - Fully responsive social proof section
           using HTML5 and CSS3 (Flex and Grid).
         </p>
       </>
@@ -30,7 +30,7 @@ export const otherProjectsList = [
     description: (
       <>
         <p>
-          FrontEnd Mentor challenge - Coming soon page with input form and
+          Frontend Mentor challenge - Coming soon page with input form and
           validation using HTML5, CSS3 (Flex and Grid) and JavaScript.
         </p>
       </>

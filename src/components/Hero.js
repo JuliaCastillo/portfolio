@@ -10,7 +10,7 @@ function Hero() {
         </div>
         <p>
           <span>productivity nut, </span> <span>animal lover, </span>
-          <span>front end developer</span>
+          <span>frontend developer</span>
         </p>
         <Profiles />
       </div>
