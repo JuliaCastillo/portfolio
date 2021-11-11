@@ -9,7 +9,16 @@
   &__content {
     width: 100%;
     text-align: center;
-    margin-top: 9.375rem;
+    margin-top: 4.375rem;
+
+    .title-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: $stroke-height * 3;
+    }
 
     h1 {
       display: inline;

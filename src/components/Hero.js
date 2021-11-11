@@ -5,7 +5,9 @@ function Hero() {
   return (
     <section className="hero" id="hero">
       <div className="hero__content">
-        <h1>HI, I'M JULIA</h1>
+        <div className="title-wrapper">
+          <h1>HI, I'M JULIA</h1>
+        </div>
         <p>
           <span>productivity nut, </span> <span>animal lover, </span>
           <span>front end developer</span>
