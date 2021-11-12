@@ -11,5 +11,7 @@ export const SkillsList = [
   "JQuery",
   "AJAX",
   "Jekyll",
+  "Figma",
+  "Latex",
   "SQL",
 ];
