@@ -4,8 +4,9 @@ export const otherProjectsList = [
     description: (
       <>
         <p>
-          Frontend Mentor challenge - App to calculate tip and split bill
-          between everyone, using HTML5, CSS3 (Flex & Grid) and JavaScript.
+          Frontend Mentor challenge - App to calculate the tip of a bill and how
+          to split it between a group of people, using HTML5, CSS3 (Flex & Grid)
+          and JavaScript.
         </p>
       </>
     ),

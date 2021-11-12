@@ -13,10 +13,10 @@ export const projectsList = [
         </p>
 
         <p>
-          It was developed by me and Aparna Rajeev, a fellow committee member,
-          using Jekyll, HTML5, CSS3 and multiple JavaScript libraries. I was in
-          charge of designing and implementing the home page as well as the
-          about us, events and sponsors pages.
+          The website was developed by me and Aparna Rajeev, a fellow committee
+          member, using Jekyll, HTML5, CSS3 and multiple JavaScript libraries. I
+          was in charge of designing and implementing the home page as well as
+          the about us, events and sponsors pages.
         </p>
       </>
     ),
@@ -36,10 +36,10 @@ export const projectsList = [
         </p>
 
         <p>
-          This was a group project, where the others designed the illustrations
-          and I was in charge of developing the website, using HTML5, CSS3,
-          JavaScript, JQuery, AJAX, a NASA API and the FatFree framework (a PHP
-          framework).
+          This was a group project, where I was in charge of developing the
+          website, using HTML5, CSS3, JavaScript, JQuery, AJAX, a NASA API and
+          the FatFree framework (a PHP framework), whilst the rest of the team
+          designed the illustrations and the UI.
         </p>
       </>
     ),
@@ -61,11 +61,11 @@ export const projectsList = [
         </p>
 
         <p>
-          It was developed using Jekyll, HTML5, CSS3, JavaScript and JQuery. I
-          was in charge of designing and implementing the schedule section,
-          where I used a JavaScript library called Papa Parse to dynamically
-          retrieve the schedule information from a Google Sheets document, which
-          was then processed and displayed using JQuery.
+          The site was developed using Jekyll, HTML5, CSS3, JavaScript and
+          JQuery, and I designed and implemented the schedule section, where I
+          used a JavaScript library called Papa Parse to dynamically retrieve
+          the schedule information from a Google Sheets document, which was then
+          processed and displayed using JQuery.
         </p>
       </>
     ),
