@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7fe12b28.chunk.css",
-    "main.js": "/static/js/main.4fef4a78.chunk.js",
-    "main.js.map": "/static/js/main.4fef4a78.chunk.js.map",
+    "main.js": "/static/js/main.a66a7686.chunk.js",
+    "main.js.map": "/static/js/main.a66a7686.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.86f4f2f8.js",
     "runtime-main.js.map": "/static/js/runtime-main.86f4f2f8.js.map",
     "static/js/2.9a7ac121.chunk.js": "/static/js/2.9a7ac121.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.7fe12b28.chunk.css.map": "/static/css/main.7fe12b28.chunk.css.map",
     "static/js/2.9a7ac121.chunk.js.LICENSE.txt": "/static/js/2.9a7ac121.chunk.js.LICENSE.txt",
-    "static/media/CV-JuliaCastilloTrujillo.526a8394.pdf": "/static/media/CV-JuliaCastilloTrujillo.526a8394.pdf",
+    "static/media/CV-JuliaCastilloTrujillo.90abbc50.pdf": "/static/media/CV-JuliaCastilloTrujillo.90abbc50.pdf",
     "static/media/SpaceOdyssey2021.70e803d7.png": "/static/media/SpaceOdyssey2021.70e803d7.png",
     "static/media/styles.css": "/static/media/brush-stroke-cropped.2648b933.svg",
     "static/media/cv-image.d40074be.svg": "/static/media/cv-image.d40074be.svg",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.86f4f2f8.js",
     "static/js/2.9a7ac121.chunk.js",
     "static/css/main.7fe12b28.chunk.css",
-    "static/js/main.4fef4a78.chunk.js"
+    "static/js/main.a66a7686.chunk.js"
   ]
 }
